@@ -1,0 +1,14 @@
+/* universal selector and inherited */
+/* Đồng bộ toàn bộ thẻ */
+html
+{
+    color: yellow;
+    font-size: 30px;
+}
+ol{
+    color: red !important;
+}
+
+ol{
+    color: green;
+}

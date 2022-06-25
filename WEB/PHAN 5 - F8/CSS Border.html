@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Border</title>
+        <style>
+            .box{
+                height: 60px;
+                width: 60px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .box1{
+                background-color: red;
+            }
+            .box2{
+                background-color: blue;
+            }
+            .box3{
+                background-color: black;
+                padding: 10px;
+                border-top-width: 10px;
+                border-bottom-width: 10px ;
+                
+                border-style: solid; 
+                /* solid - nét liền 
+                mặc định cảu solid là 2 px*/
+                border-color: yellow;
+
+                /* KIỂU VIẾT DÀI */
+                /* border-right-width: 10px ; */
+
+                /* KIỂU VIẾT NGẮN */
+                /* border: 10px solid yellow; */
+                /*    kích thước- kiểu - màu */
+
+                /* CÁCH KHÁC */
+                /* border: 10px green; */
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box box1">BOX 1</div>
+        <div class="box box2">BOX 2</div>
+        <div class="box box3">BOX 3</div>
+    </body>
+</html>

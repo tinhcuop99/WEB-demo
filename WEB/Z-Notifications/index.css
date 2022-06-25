@@ -1,0 +1,69 @@
+.noti{
+    display: flex;
+    flex-direction: row;
+    background-color: #eaf7ee;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 12px;
+    min-width: 400px;
+    max-width: 500px;  
+    margin-bottom: 8px;
+    
+}
+
+
+.noti__success{
+    border-color: #41be63;
+    background-color: #ebf7ee;
+}
+
+.noti__success .noti-icon{
+    color: #41be63;
+}
+
+.noti__infor{
+    border-color:#006ce5;
+    background-color: #e5effa;
+}
+
+.noti__infor .noti-icon{
+    color: #006ce5;
+}
+
+.noti__warning{
+    border-color: #ee9500;
+    background-color: #fef7ea;
+}
+
+.noti__warning .noti-icon{
+    color: #ee9500;
+}   
+
+.noti__denger{
+    color:#eb4d2c;
+    background-color: #fcedea;
+}
+
+.noti__denger .noti-icon{
+    color: #eb4d2c;
+}
+
+
+
+.noti-icon{
+    font-size: 22px;
+    padding-left: 8px;
+}
+
+.noti-msg{
+    padding: 0px 28px;
+}
+
+.noti-close{
+    font-size: 14px;
+    color: rgba(0 ,0 ,0 ,0.35 );
+    cursor: pointer;
+    right: 0px;
+    padding: 0 16px;
+    
+}

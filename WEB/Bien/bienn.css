@@ -1,0 +1,14 @@
+/* ---TOÀN CỤC--- */
+:root{
+    --text-color: red;
+}
+
+h1{
+    /* CỤC BỘ */
+    --my-color: blue;
+    color: var(--my-color);
+}
+
+h2{
+    color: var(--text-color);
+}

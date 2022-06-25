@@ -1,0 +1,42 @@
+<!-- LỚP NGOÀI CÙNG -->
+<!-- TẠO KHOẢNG CÁCH GIỮA 2 BOX -->
+<!-- KHÔNG LÀM ELEMANT DÀY RA -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Border</title>
+        <style>
+            .box{
+                height: 60px;
+                width: 60px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                /* ĐƯA CÁC BOX CÙNG NẰM 1 HÀNG NGĂNG */
+                float: left;
+            }
+            .box1{
+                background-color: red;
+
+            }
+            .box2{
+                margin-left: 10px;
+                margin-right: 10px;
+                background-color: blue;
+            }
+            .box3{
+                background-color: black;
+                /* ĐẨY RA CẢ 4 HƯỚNG */
+                margin: 10px;
+              
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box box1">BOX 1</div>
+        <div class="box box2">BOX 2</div>
+        <div class="box box3">BOX 3</div>
+    </body>
+</html>

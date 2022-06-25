@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Border</title>
+        <style>
+            html, body{
+                margin: 0px;
+            }
+            .box{
+                height: 100px;
+                width: 100px;
+                color: white;
+                background-color: blueviolet;
+                padding: 16px;
+                border: 2px solid red;
+                box-sizing: border-box;
+                /* CHIỀU NGANG ELEMENT = TỔNG KÍCH THƯỚC BORDER + PADDING + KÍCH THƯỚC CONTENT */
+
+                /* box-sizing: content-box; */
+                /* box-sizing: unset; */
+                /* MẶC ĐỊNH NHƯ KHI CHƯA SET BOX-SIZING */
+            /* KÍCH THƯỚC CONTENT = KÍCH THƯỚC KHAI BÁO ( height, width) - kích thước borer - kích thước padding */
+            }
+           
+        </style>
+    </head>
+
+    <body>
+        <div class="box">This is a box. It's a school</div>
+        
+    
+    </body>
+</html>

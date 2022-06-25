@@ -1,0 +1,56 @@
+html{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.main{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* width: 700px; */
+    
+    /* width: 700px; */
+    justify-content: center;
+    
+    
+    
+    
+}
+.box{
+    
+    border: 1px solid #ccc;
+    background-color: #ddd;
+    border-radius: 14px;
+    text-align: center;
+    padding: 16px 12px;
+    margin: 4px 6px;
+    flex-basis: auto;
+    
+    
+    
+}
+
+
+.box__icon{
+    color: #339999;
+    font-size: 28px;
+   
+}
+
+
+/* .box__tiltle, .box__msg, .box__icon{
+    text-align: center;
+} */
+
+.box__tiltle{
+    font-size: 14px;
+    
+
+}
+
+.box__msg{
+
+    font-size: 10px;
+    padding-bottom: 4px;
+    
+    
+}

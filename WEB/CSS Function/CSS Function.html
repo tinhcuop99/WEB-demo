@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB</title>
+        <meta charset="utf-8">
+        
+        <style>
+            .box{
+                background-color: red;
+                /* height: 50px; */
+                height: calc(200px + 60px);
+                width: 200px;
+            }
+            .box::after{ 
+                content: attr(data-title);
+                
+
+            }
+            a::after{
+                content: " (" attr(href)")";
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box" data-title =" BOX RED"></div>
+        <a href="https://fullstack.edu.vn/">Học lập trình! </a>
+        <h1>CSS</h1>
+        <ul>
+            <li>var()</li>
+            <li>linear-gradient()</li>
+            <li>rgba()</li>
+            <li>rgb()</li>
+            <li>cacl()</li>
+            <li>attrc</li>
+        </ul>
+    </body>
+</html>

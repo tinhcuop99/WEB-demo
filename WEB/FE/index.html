@@ -1,0 +1,95 @@
+   <!-- 1. h1-h6: Tiêu đề: h1 lớn nhất, từ h2 thì cỡ chữ nhỏ dần
+        2.p - paragraph : Đoạn văn
+        3.img: hiển thị hình ảnh
+        4.a: Thẻ để đặt liên kết
+        5.ul, li: Thể hiện dạng danh sách
+        Một thẻ ul - danh sách, 
+        Mỗi bài học là 1 thẻ li
+        6.table: Bảng gồm phần đầu bảng <thead>,
+                         và phân thân <tbody>
+        7.input: 
+        checkbox: dấu tích - có thể chọn được nhiều ô
+        radio: tròn - chỉ chọn được 1 ô
+        8.button: nút
+        9.div: Tạo khối bao quanh phần tử    -->
+
+        <!-- Attribute trong HTML -->
+        <!-- Thuộc tính -->
+   <!DOCTYPE html>
+    <html>
+        <head>
+            <title>SHOP</title>
+            <meta charset="utf-8">
+            <!-- <style>
+                .p1 {
+                    color: red;
+                }
+            </style> -->
+
+            <style>
+            .paragraph.p1 {
+                color: red;
+        
+            }
+        </style>
+
+        <!-- --- CÁCH VIẾT THẺ - INTERNAL----
+            <style>
+                h1 {
+                    color: red;
+                    font-size: 30px;
+                }
+            </style> -->
+            
+            <!-- --- CÁCH VIẾT THẺ----xternal
+            <link rel="stylesheet" href="main.css"> -->
+        </head>
+
+        <body>
+           
+            <!-- <h1 title="Đây là tiêu đề">WELLCOME TO MY PAGE </h1> -->
+            
+            
+            <div>
+                <h1>WELLCOME</h1>
+            <input type="text">
+
+            <button>Tìm kiếm</button>
+            <p class="paragraph p1">Paragraph 1</p>
+            <p class="paragraph p1">Paragraph 1</p>
+            <p class="paragraph">Paragraph 2</p>
+                Các bạn subscribe kênh Youtube F8 Official để nhận thông báo khi có các bài học mới nhé </p>
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nguyenkim.com%2Fcach-chup-anh-chan-dung-cuc-dep-cuc-chat-cho-nguoi-moi-lam-quen-voi-may-anh.html&psig=AOvVaw0yO9DF6sc0SlhVaz3LR59W&ust=1640740384406000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJD7iLCohfUCFQAAAAAdAAAAABAD" alt="Ảnh chụp chân dung">
+            <a href="fullstack.edu.vn">Tới trang ảnh</a>  
+            <ol>
+                <li>Xin chào!</li>
+                <li style="color: red;">Rất vui được gặp bạn</li>
+            </ol>
+
+            <table>
+                <head>
+                    <thead style="color: red;">
+                        <th>STT</th>
+                        <th>Tên</th>
+                        <th>Lớp</th>
+                    </thead>
+                </head>
+                
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Thành</td>
+                        <td>12A2</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Sơn</td>
+                        <td>12A3</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            </div>
+            </body>
+    </html>
